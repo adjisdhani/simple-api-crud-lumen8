@@ -1,6 +1,6 @@
 # Simple Lumen 8 CRUD API
 
-This is a simple Lumen 8 CRUD API project for managing a collection of books. It demonstrates basic CRUD operations, including creating, reading, updating, and deleting data, with endpoints accessible via RESTful API.
+This is a simple Lumen 8 CRUD API project for managing a collection of content. It demonstrates basic CRUD operations, including creating, reading, updating, and deleting data, with endpoints accessible via RESTful API.
 
 ## Features
 - View all content (GET `/api/posts`)
