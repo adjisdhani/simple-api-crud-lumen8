@@ -28,7 +28,7 @@ class PostController extends Controller
         $post = Post::find($id);
 
         if (!$post) {
-            return response()->json(['message' => 'Post not found'], 404);
+            return response()->json(['message' => 'Content not found'], 404);
         }
 
         return response()->json($post, 200);
@@ -39,7 +39,7 @@ class PostController extends Controller
         $post = Post::find($id);
 
         if (!$post) {
-            return response()->json(['message' => 'Post not found'], 404);
+            return response()->json(['message' => 'Content not found'], 404);
         }
 
         $this->validate($request, [
@@ -56,7 +56,7 @@ class PostController extends Controller
         $post = Post::find($id);
 
         if (!$post) {
-            return response()->json(['message' => 'Post not found'], 404);
+            return response()->json(['message' => 'Content not found'], 404);
         }
 
         $post->delete();
